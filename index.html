@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vishal Kumar Singh — Portfolio</title>
+
+    <!-- Fonts & Icons (no JS needed) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Your stylesheet -->
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <!-- THEME TOGGLE (no JS) -->
+    <input type="checkbox" id="theme-toggle" class="visually-hidden" aria-label="Toggle light mode" />
+    <!-- MOBILE MENU TOGGLE (no JS) -->
+    <input type="checkbox" id="menu-toggle" class="visually-hidden" aria-label="Open navigation menu" />
+
+    <div class="site">
+      <!-- ====== Header / Navbar ====== -->
+      <header class="header">
+        <div class="nav-inner">
+          <a class="brand" href="#page-1" aria-label="Go to Home">
+            <img
+              src="https://res.cloudinary.com/dpla41pfn/image/upload/v1762693026/portfolio_logo_ad2bny.jpg"
+              alt="VKS logo"
+              class="logo"
+            />
+            <span class="brand-name">Vishal</span>
+          </a>
+
+          <!-- Hamburger (mobile) -->
+          <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </label>
+
+          <!-- Nav links -->
+          <nav class="nav">
+            <a class="nav-link" href="#page-1">Home</a>
+            <a class="nav-link" href="#page-2">About Me</a>
+            <a class="nav-link" href="#page-3">Skills</a>
+            <span class="nav-link disabled" aria-disabled="true" title="Coming soon">Project</span>
+            <a class="nav-link" href="#page-5">Contact</a>
+
+            <!-- Theme toggle button -->
+            <label for="theme-toggle" class="theme-btn" title="Toggle light/dark">
+              <i class="fa-solid fa-moon moon"></i>
+              <i class="fa-solid fa-sun sun"></i>
+            </label>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <!-- ====== Home ====== -->
+        <section id="page-1" class="section hero">
+          <div class="container">
+            <p class="kicker">Full Stack Enthusiast</p>
+            <h1 class="headline">
+              Hi 👋 I am <span class="accent">Vishal Kumar Singh</span>
+            </h1>
+            <p class="subhead">Web Developer • Python Lover • IOT Curious</p>
+
+            <div class="cta-row">
+              <a class="btn primary" href="#page-2">About Me</a>
+              <a class="btn ghost" href="#page-3">Explore Skills</a>
+            </div>
+
+            <!-- Decorative, optional -->
+            <div class="hero-badges">
+              <span class="badge">Python</span>
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">Power BI</span>
+              <span class="badge">AI Tools</span>
+              <span class="badge">IOT</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== About ====== -->
+        <section id="page-2" class="section about">
+          <div class="container grid-2">
+            <div class="about-media">
+              <img
+                src="https://res.cloudinary.com/dpla41pfn/image/upload/v1762697294/profile-pic_qd0dar.jpg"
+                alt="Vishal profile picture"
+                class="profile-pic"
+              />
+            </div>
+            <div>
+              <h2 class="section-title">About Me</h2>
+              <ul class="about-list">
+                <li>Front-end</li>
+                <li>Back-end</li>
+                <li>Python Advance Developer</li>
+                <li>NIAT×NIU Noida 2025–29, CSE (AI & ML)</li>
+                <li>Coding, IOT & Web Development</li>
+              </ul>
+
+              <p class="about-note">
+                I love building clean, fast, and accessible web experiences.
+                Exploring data with <strong>Power BI</strong> and leveraging <strong>AI tools</strong> to move faster and smarter.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== Skills ====== -->
+        <section id="page-3" class="section skills">
+          <div class="container">
+            <h2 class="section-title center">Skills</h2>
+
+            <div class="skills-grid">
+              <article class="card">
+                <h3 class="card-title">Python</h3>
+                <p>Strong grasp of core concepts, scripting, and problem solving.</p>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">Web Basics</h3>
+                <p>Semantic HTML, modern CSS layouts, responsive design.</p>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">IOT</h3>
+                <p>Hands-on curiosity with hardware and data pipelines.</p>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">AI Tools</h3>
+                <p>Prompting, workflow automation, and productivity boosters.</p>
+              </article>
+
+              <article class="card">
+                <h3 class="card-title">Power BI</h3>
+                <p>Intermediate dashboards, visuals, and insights.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== Contact / Social ====== -->
+        <section id="page-5" class="section contact">
+          <div class="container">
+            <h2 class="section-title center">Follow Me 😁</h2>
+
+            <div class="social-row">
+              <a href="https://www.instagram.com/vishalkumarsingh.21" class="social" aria-label="Instagram (opens in new tab)" target="_blank" rel="noopener">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/vishal-kumar-singh-2a5023375" class="social" aria-label="LinkedIn (opens in new tab)" target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://x.com/officialvks2007" class="social" aria-label="X / Twitter (opens in new tab)" target="_blank" rel="noopener">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+
+            <hr class="divider" />
+
+            <p class="footer-note">
+              © <span id="year">2025</span> Vishal Kumar Singh. Built with ♥
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
